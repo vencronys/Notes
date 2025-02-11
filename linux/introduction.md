@@ -6,7 +6,7 @@
   - [Système d'exploitation UNIX](#système-dexploitation-unix)
     - [Caractéristiques du système UNIX](#caractéristiques-du-système-unix)
   - [Connexion et déconnexion](#connexion-et-déconnexion)
-  - [Introduction à la notion de système de fichiers (file system)](#introduction-á-la-notion-de-système-de-fichiers-file-system)
+  - [Introduction à la notion de système de fichiers file system](#introduction-à-la-notion-de-système-de-fichiers-file-system)
     - [Notion de fichier et de répertoire](#notion-de-fichier-et-de-répertoire)
     - [Nomenclature des fichiers](#nomenclature-des-fichiers)
     - [Les différents types de fichiers](#les-différents-types-de-fichiers)
@@ -68,7 +68,7 @@ système.
 > [!ATTENTION]
 > Unix fait la différence entre les minuscules et des MAJUSCULES.
 
-## Introduction à la notion de système de fichiers (file system)
+## Introduction à la notion de système de fichiers file system
 
 ### Notion de fichier et de répertoire
 
