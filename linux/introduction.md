@@ -6,13 +6,14 @@
   - [Système d'exploitation UNIX](#système-dexploitation-unix)
     - [Caractéristiques du système UNIX](#caractéristiques-du-système-unix)
   - [Connexion et déconnexion](#connexion-et-déconnexion)
-  - [Introduction à la notion de système de fichiers (file system)](#introduction-à-la-notion-de-système-de-fichiers-file-system)
+  - [Introduction à la notion de système de fichiers file system](#introduction-à-la-notion-de-système-de-fichiers-file-system)
     - [Notion de fichier et de répertoire](#notion-de-fichier-et-de-répertoire)
     - [Nomenclature des fichiers](#nomenclature-des-fichiers)
     - [Les différents types de fichiers](#les-différents-types-de-fichiers)
     - [Système de fichiers](#système-de-fichiers)
       - [Quelques principaux répertoires Unix](#quelques-principaux-répertoires-unix)
       - [Les répertoires *point* et *point point*](#les-répertoires-point-et-point-point)
+  - [Notion de chemin d'accès path name](#notion-de-chemin-daccès-path-name)
 <!--toc:end-->
 
 Linux est l'un des systèmes d'exploitation les plus populaires. Son développement
@@ -122,3 +123,19 @@ du répertoire créé, qui sont:
 
 - Le répertoire **.** qui représente un lien vers le répertoire créé.
 - Le répertoire **.\.** qui représente un lien vers le répertoire père.
+
+## Notion de chemin d'accès path name
+
+### Chemin absolu
+
+Un chemin absolu c'est un chemin d'accès dans lequel on spécifie tous les
+répertoires à partir de la racine **/**.
+
+### Chemin relatif
+
+Un chemin relatif c'est un chemin d'accès dans lequel on spécifie tous les
+répertoires à partir du répertoire courant.
+
+### Le caractère **~**
+
+Le caractère **~** représente le répertoire de l'utilisateur courant.
