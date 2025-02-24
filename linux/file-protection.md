@@ -81,9 +81,11 @@ l'aide de la commande `chmod` (CHange MODe). Il existe deux modes d'utilisation
 de cette commande. La premiere utilise la description des protections par un
 nombre octal.
 
-> [!EXAMPLE]
-> `$ chmod 765`
-> = rwx rw- r-x
+> **Example :**
+> ```
+> $ chmod 765
+> => rwx rw- r-x
+> ```
 
 La deuxieme mode d'utilisation de chmod, le mod symbolique, permet une description
 absolue ou relative des droits d'acces. comme suit :
