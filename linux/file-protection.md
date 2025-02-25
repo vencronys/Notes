@@ -69,7 +69,7 @@ L'utilisateur est autorise a acceder au repertoire (faire la commande `cd`).
 - `2` : nombre de liens
 - `etudiant` : user
 - `SMI` : group
-- `4096` : size
+- `4096` : nombre d'inode
 - `2012-04-23 09:14` : date de modification
 
 ## Modification des droits d'acces aux fichiers
@@ -81,10 +81,9 @@ l'aide de la commande `chmod` (CHange MODe). Il existe deux modes d'utilisation
 de cette commande. La premiere utilise la description des protections par un
 nombre octal.
 
-> **Example :**
+> [!Example]
 > ```
-> $ chmod 765
-> => rwx rw- r-x
+> $ chmod 765 => rwx rw- r-x
 > ```
 
 La deuxieme mode d'utilisation de chmod, le mod symbolique, permet une description
@@ -98,3 +97,21 @@ une combinaison de lettre :
 - `+` : permet d'ajouter un droit d'acces
 - `-` : permet de supprimer un droit d'acces
 - `=` : permet d'affecter un droit de maniere absolut (tous les autres bits = `-`)
+
+### Notion d'inode
+
+Un noeud d;index ou inode (contraction de l'anglais index et node) est une
+structure de donnees contenant des informations a propos d'un fichier ou
+repertoire stocke dans certains systemes de fichiers.
+
+#### Structure d'un inode :
+
+- Le type (fichier ordinaire, special, catalogue, ...)
+- le nombre de liens,
+- UID (User IDentification): numero d'utilisateur du proprietaire
+- GID (Group IDentificaition): numero du groupe proprietaire
+- Taille du fichier en octes
+- Adresse des blocs de donnees (qui contiennent le fichier)
+- Droits du fichier
+- Date de la derniere modification
+- Date de creation
