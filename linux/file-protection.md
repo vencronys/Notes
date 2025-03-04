@@ -27,37 +27,36 @@ Sous Linux il existe differentes types de fichiers :
 |lien symbolique    | l     |
 |pipe nomme         | p     |
 
-### Pour les fichiers ordinaires :
+### Pour les fichiers ordinaires
 
-#### Droit de lecture :
+#### Droit de lecture
 
 L'utilisateur est autorise a lire le contenu du fichier (le visualiser),le
 copier, le compiler. Sans ce droit, l'utilisateur ne peut pas, par exemple
 copier ce fichier ou le compiler.
 
-#### Droit d'ecriture :
+#### Droit d'ecriture
 
 L'utilisateur peut modifier (ecrire dans) le fichier.
 **Attention:** pour pouvoir modifier le fichier il faut l'ouvrir, donc le droit
 d'ecriture seul (sans le droit de lecture) ne permet pas de modifier le fichier.
 
-#### Droit d'execution :
+#### Droit d'execution
 
 Si le fichier est executable (binaire, script shell, ...), l'utilisateur peut
 l'executer le fichier.
 
+### Pour les repertoires (catalogue)
 
-### Pour les repertoires (catalogue) :
-
-#### Droit de lecture :
+#### Droit de lecture (rep)
 
 L'utilisateur est autorise a lister le contenu du repertoire.
 
-#### Droit d'ecriture :
+#### Droit d'ecriture (rep)
 
 L'utilisateur est autorise a creer, supprimer ou renommer des fichiers du repertoire.
 
-#### Droit Droit d'execution :
+#### Droit Droit d'execution
 
 L'utilisateur est autorise a acceder au repertoire (faire la commande `cd`).
 
@@ -82,8 +81,10 @@ de cette commande. La premiere utilise la description des protections par un
 nombre octal.
 
 > [!Example]
-> ```
+>
+> ```bash
 > $ chmod 765 => rwx rw- r-x
+> succes
 > ```
 
 La deuxieme mode d'utilisation de chmod, le mod symbolique, permet une description
@@ -104,7 +105,7 @@ Un noeud d;index ou inode (contraction de l'anglais index et node) est une
 structure de donnees contenant des informations a propos d'un fichier ou
 repertoire stocke dans certains systemes de fichiers.
 
-#### Structure d'un inode :
+#### Structure d'un inode
 
 - Le type (fichier ordinaire, special, catalogue, ...)
 - le nombre de liens,
