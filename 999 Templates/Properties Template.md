@@ -1,0 +1,6 @@
+---
+id: shell
+aliases: []
+tags: []
+---
+

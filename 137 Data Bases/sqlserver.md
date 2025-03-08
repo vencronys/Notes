@@ -1,3 +1,4 @@
+**Tags**: #ERROR
 # SQL Server Express Cheatsheet
 
 ## **Installation (Arch Linux)**

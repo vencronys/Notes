@@ -1,3 +1,9 @@
+---
+id: shell
+aliases: []
+tags: []
+---
+
 # Introduction à l'interpréteur de commandes le shell
 
 <!--toc:start-->
