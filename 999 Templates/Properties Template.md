@@ -1,6 +1,6 @@
 ---
-id: shell
-aliases: []
-tags: []
+id: 
+aliases: 
+tags:
 ---
 

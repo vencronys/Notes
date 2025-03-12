@@ -1,3 +1,13 @@
+---
+id: lab-analysis-report
+aliases: 
+tags:
+  - lab
+  - 3eme-annee
+  - project
+---
+
+
 # 📖 Dictionnaire de Données - Système de Gestion des Analyses Sanguines  
 
 ## 🩸 Table : Analyse  
