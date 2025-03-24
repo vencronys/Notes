@@ -6,7 +6,7 @@ les fichiers verifiant certains criteres.
 
 > [!Syntax]
 > ```bash
-> find repertoire criteres options
+> find repertoire [criteres] [options]
 > ```
 
 Si le critere n;'est pas specifie, alors la commande `find` affiche recursivement tous les repertoires et fichiers du repertoire precise dans l invite de commande.
