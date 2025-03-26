@@ -32,4 +32,3 @@ La commande `sort` trie les lignes du fichier `fiche` et affiche le resultat sur
 - Par defaut les champs sont delimites par une tabulation ou par espace.
 - L'option `-tcar` permet de specifier un char qui designera le nouveau delimiteur de champs.
 - `pos1` designe le premier champ et `pos2` designe le dernier champ, selon lesquels le trie s'effectuera.
-- 
