@@ -127,3 +127,29 @@ Word count.
 | `\|`      | OU logique                                                  | `(a\|b)+` → `"aa"`, `"bbab"`…           |
 | `()`      | Groupe capturant                                            | `(ab)+` → `"ab"`, `"abab"`…             |
 | `\b`      | Délimiteur de mot                                           | `\bchat\b` → `"chat"` mais pas `"château"` |
+
+## Bash scripting
+
+```bash
+#!/bin/bash
+# your code here
+exit 0
+```
+
+### 🧾 4.3. Les paramètres spéciaux en Shell
+
+Ce sont des **variables réservées**. Certaines sont liées aux **arguments passés** au script shell.  
+Pour les utiliser, on les précède du symbole `$`.
+
+| Paramètre | Signification                                                                 |
+|-----------|-------------------------------------------------------------------------------|
+| `$0`      | Nom du script shell                                                           |
+| `$*`      | Liste de tous les arguments sous **forme d'une seule chaîne**                 |
+| `$@`      | Liste de tous les arguments sous **forme de plusieurs arguments séparés**    |
+| `$#`      | Nombre total d’arguments passés au script                                     |
+| `$?`      | Code retour de la **dernière commande exécutée**                             |
+| `$$`      | PID du processus qui exécute le script (sous-shell lancé par le shell parent) |
+| `$!`      | PID du **dernier processus lancé en arrière-plan**                           |
+
+🧠 **Astuce :**  
+Utilise `"${@}"` avec des guillemets pour préserver l'intégrité de chaque argument avec espaces.
